@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activity.MainActivity">
 
 
     <ScrollView
@@ -73,6 +73,7 @@
                 android:orientation="horizontal">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/btn1"
                     android:layout_width="0dp"
                     android:layout_height="170dp"
                     android:layout_marginEnd="12dp"
@@ -116,6 +117,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/btn2"
                     android:layout_width="0dp"
                     android:layout_height="170dp"
                     android:layout_marginStart="12dp"
@@ -171,6 +173,7 @@
                 android:orientation="horizontal">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/btn3"
                     android:layout_width="0dp"
                     android:layout_height="170dp"
                     android:layout_marginEnd="12dp"
@@ -214,6 +217,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/btn4"
                     android:layout_width="0dp"
                     android:layout_height="170dp"
                     android:layout_marginStart="12dp"
